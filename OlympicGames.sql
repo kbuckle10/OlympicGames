@@ -1,5 +1,5 @@
 
--- Data Exploration for Olympic Games up to 2016
+-- Data Exploration for Olympic Games up to 2016 Portfolio Project
 
 -- Jamaica
 SELECT
