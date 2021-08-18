@@ -1,3 +1,7 @@
+
+-- Data Exploration for Olympic Games up to 2016
+
+-- Jamaica
 SELECT
          [ID]
         ,[Name] AS 'Competitor Name' -- Renamed Column
@@ -51,9 +55,6 @@ SELECT
   FROM [olympic_games].[dbo].[athletes_event_results]
   WHERE RIGHT(Games,CHARINDEX(' ', REVERSE(Games))-1) = 'Summer' -- Where Clause to isolate Summer Season
   ORDER BY Year DESC
-
-
---https://stackoverflow.com/questions/1535914/import-bak-file-to-a-database-in-sql-server/34524216
 
 
 --https://stackoverflow.com/questions/1535914/import-bak-file-to-a-database-in-sql-server/34524216
